@@ -67,7 +67,7 @@ if (typeof module !== "undefined" && typeof exports !== "undefined" && module.ex
         'image'
       ]
     ];
-  angular.module('wysiwyg.module', ['colorpicker.module']).directive('wysiwyg', [
+  angular.module('wysiwyg.module', []).directive('wysiwyg', [
     '$timeout',
     'wysiwgGui',
     '$compile',
