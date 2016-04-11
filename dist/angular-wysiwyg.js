@@ -23,6 +23,10 @@ Requires:
         use compile fuction instead of $compile
         move button elements to js objects and use doc fragments 
 */
+if (typeof module !== "undefined" && typeof exports !== "undefined" && module.exports === exports){
+  module.exports = 'wysiwyg.module';
+}
+
 (function (angular, undefined) {
   'use strict';
   var DEFAULT_MENU = [
